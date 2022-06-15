@@ -1,0 +1,26 @@
+- Resiliência: O que fazer para mitigar possíveis erros e controlar os possíveis erros recebidos da API.
+
+Criação de um padrão em relação ao passo a passo que deve ser executado, de modo a identificar possíveis erros em etapas especificas, como exemplos de etapas
+para padronização:
+-Ocorre a verificação da URL da requisição, analisando o caminho passado entre os arquivos.
+-Verificação da informações passadas no cabeçalhos da requisição.
+-Parametrização de dados da requisição, evitando assim erros pelo uso de caracteres em maiúsculo ou minúsculo.
+-Análise do texto apresentado como resposta na requisição, muitas vezes indicando um possível erro, falha na interpretação no código.
+
+- Performance: Quais boas práticas são aplicadas em banco de dados e no código para garantir performance?
+
+Dentre as boas práticas existem;
+-Parametrização de Banco, com finalidade de analisar a infraestrutura que irá suportar os dados presentes nesse banco. 
+-Monitoramento de desempenho, de modo a analisar o desempenho, comparar os resultados obtidos com os desejados/calculados e garantir uma intervenção rápida da 
+equipe no caso de irregularidades.
+
+
+- Segurança: Como garantir segurança para as APIs do sistema?
+
+Assim como muitos dados são protegidos nas tabelas do banco, através de criptografia, esta forma de proteção também pode ser utilizada como uma segurança para as 
+APIs, afinal as APIs por lidarem com dados, não devem ficar expostas, desprotegidos ou com acesso liberado para qualquer usuário.
+
+- Simultaneidade: Como trabalhar com simultaneidade se milhares de requisições forem solicitadas simultaneamente?
+
+Realizando uma troca de execução, com o intuito de executar as requisições em um intervalo de tempo muito próximo, quase simultâneo, trocando a execução entre as 
+requisições.
